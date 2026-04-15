@@ -1,0 +1,92 @@
+.header-area.header-1.header-absolute {
+    backdrop-filter: blur(10px);
+    /*background: rgba(15, 46, 46, 0.85);*/
+    background: linear-gradient(135deg,#0f2e2e,#021414);
+}
+
+.header-area.header-1 .header-wrapper {
+    backdrop-filter: blur(10px);
+    /*background: rgba(15, 46, 46, 0.85);*/
+    background: linear-gradient(135deg,#0f2e2e,#021414);
+}
+.header-area.sticky
+{
+    backdrop-filter: blur(10px);
+    /*background: rgba(15, 46, 46, 0.85);*/
+    background: linear-gradient(135deg,#0f2e2e,#021414);
+}
+.mainmenu ul > li > a {
+    color: white;
+}
+.menu_bar span {
+    background-color: white;
+}
+.tj-banner-section {
+    position: relative;
+    margin-top: 0px;
+}
+
+.header-area {
+    border-end-start-radius: 0;
+    border-end-end-radius: 0;
+}
+
+.project-text>h4
+{
+    text-align: center !important;
+}
+
+
+.project-item .project-content {
+    padding: 20px 20px 20px 20px;
+}
+.project-item .project-text {
+    margin-top: 0;
+}
+.tj-footer-section {
+    padding-top: 0;
+}
+
+/*
+.footer-main-area {
+    position: relative;
+    padding: 0px 0 90px 0;
+}
+*/
+
+.tj-page-header {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.widget-nav-menu ul li:first-child {
+    padding-top: 6px;
+}
+.space-for-header {
+    padding-top: 90px;
+}
+
+
+
+
+
+/*for mobile*/
+@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+
+.site_logo .logo {
+    max-width: 95px;
+}
+
+.tj-banner-section {
+    position: relative;
+    margin-top: 0px;
+}
+.space-for-header {
+        padding-top: 88px;
+    }
+        .section-gap {
+        padding-top: 35px;
+        padding-bottom: 70px;
+    }
+
+}

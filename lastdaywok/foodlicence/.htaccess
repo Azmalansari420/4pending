@@ -1,0 +1,9 @@
+# Enable the Rewrite Engine
+RewriteEngine On
+
+# If the request doesn't contain a file extension
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite URLs without ".php" to the corresponding ".php" file
+RewriteRule ^([^/]+)$ $1.php [L]

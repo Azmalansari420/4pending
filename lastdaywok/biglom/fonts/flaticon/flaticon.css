@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("flaticon73a0.ttf?b89d4a9da2e4a023dbf58a1c18cbe941") format("truetype"),
+url("flaticon73a0.woff?b89d4a9da2e4a023dbf58a1c18cbe941") format("woff"),
+url("flaticon73a0.woff2?b89d4a9da2e4a023dbf58a1c18cbe941") format("woff2"),
+url("flaticon73a0.eot?b89d4a9da2e4a023dbf58a1c18cbe941#iefix") format("embedded-opentype"),
+url("flaticon73a0.svg?b89d4a9da2e4a023dbf58a1c18cbe941#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-decorative-textile:before {
+    content: "\f101";
+}
+.flaticon-textile:before {
+    content: "\f102";
+}
+.flaticon-knitting:before {
+    content: "\f103";
+}
+.flaticon-layers:before {
+    content: "\f104";
+}
+.flaticon-clothes:before {
+    content: "\f105";
+}
+.flaticon-textile-1:before {
+    content: "\f106";
+}
+.flaticon-sewing-machine:before {
+    content: "\f107";
+}
+.flaticon-silk:before {
+    content: "\f108";
+}
+.flaticon-yarn:before {
+    content: "\f109";
+}
+.flaticon-textile-printing:before {
+    content: "\f10a";
+}
+.flaticon-suit:before {
+    content: "\f10b";
+}
+.flaticon-measuring:before {
+    content: "\f10c";
+}
+.flaticon-sewing-1:before {
+    content: "\f10d";
+}
+.flaticon-sewing:before {
+    content: "\f10e";
+}
+.flaticon-tailor:before {
+    content: "\f10f";
+}
+.flaticon-shop:before {
+    content: "\f110";
+}
+.flaticon-threads:before {
+    content: "\f111";
+}
+.flaticon-fabric-pattern:before {
+    content: "\f112";
+}
+.flaticon-scissors:before {
+    content: "\f113";
+}
+.flaticon-fashion-designer:before {
+    content: "\f114";
+}
+.flaticon-scissors-1:before {
+    content: "\f115";
+}
+.flaticon-clothes-1:before {
+    content: "\f116";
+}
+.flaticon-pin:before {
+    content: "\f117";
+}
+.flaticon-sewing-machine-1:before {
+    content: "\f118";
+}
+.flaticon-threads-1:before {
+    content: "\f119";
+}

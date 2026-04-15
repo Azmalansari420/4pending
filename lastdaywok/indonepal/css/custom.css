@@ -1,0 +1,40 @@
+:root {
+    --body-font: 'Heebo', sans-serif;
+    --heading-font: 'Manrope', sans-serif;
+    --thm-primary: #1953ab;
+    --thm-black: #1e2a2e;
+    --thm-gray: #000;
+}
+
+
+.logo img {
+    width: 125px;
+}
+
+.header_upper_one_box .logo {
+    padding: 3px 0;
+}
+.nav-outer .mobile-nav-toggler {
+    top: 25px;
+}
+.features-two-sec-single {
+    text-align: center;
+    
+        padding: 30px 30px;
+    }
+
+.features-two-sec-single {
+    background: var(--thm-primary);
+}
+.main-service-one-section.two {
+    padding: 60px 0 0px;
+}
+.main-service-one-sec-content {
+    padding: 25px 20px 25px; 
+    text-align: center;
+}
+
+.mobile-menu .menu-box {
+    top: -115px;
+
+}

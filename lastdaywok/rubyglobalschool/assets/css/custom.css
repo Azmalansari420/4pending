@@ -1,0 +1,61 @@
+:root {
+  --color-primary-2: #000;
+}
+
+.header-top-one-wrapper {
+    background: black !important;
+}
+
+.header-one-wrapper .left-side-header .logo-area {
+    padding: 0px 0;
+    display: block;
+}
+
+.webiste-logo
+{
+    width: 300px;
+}
+
+.header-default .header-main {
+    background: #e37513;
+}
+.header-one-wrapper {
+    background: #e37513;
+}
+.main-nav-one ul li a.nav-link {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.about-wrapper .wrapper-list:last-child .list-inner
+ {
+    background: #b89ea5;
+}
+
+
+.modal-body {
+    background: white;
+}
+
+
+
+    .model-input{
+        width: 46% !important;
+    
+    }
+
+    .model-form
+    {
+        padding: 15px !important;
+    }
+
+
+
+
+@media (max-width: 450px) {
+    .header-one-wrapper .left-side-header .logo-area {
+        padding: 0px 0;
+        width: 170px;
+    }
+}

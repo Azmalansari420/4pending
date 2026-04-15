@@ -1,0 +1,139 @@
+.contact-form .form-inner {
+    margin-bottom: 15px;
+}
+.practice-single3 .practice-content {
+    text-align: center;
+}
+.practice-single3 .practice-image > img {
+    background: white;
+}
+
+header.style-5 .header-logo img {
+    height: 65px;
+    border-radius: 7px;
+        background: white;
+    padding: 5px;
+}
+
+header.style-5 .main-nav ul li a {
+    color: black;
+}
+header.style-5 .nav-left {
+    background-color: white;
+}
+header.style-5 .nav-right {
+    background-color: white;
+}
+.section-title2.sibling3 span {
+    color: #263866;
+    position: relative;
+}
+
+header.style-5 {
+    background-color: #ffffff;
+}
+.phone-call .number h5 {
+    color: black;
+}
+.phone-call .number span {
+    color: black;
+}
+.phone-call .icon svg {
+    fill: black;
+}
+.btn--primary2.sibling2 {
+    border-radius: 10px;
+    line-height: 32px;
+    height: 52px;
+    background-color: rgb(38 56 102);
+    color: white;
+}
+.practice-single3 {
+    border-radius: 10px;
+    background: #283a66;
+    padding: 15px;
+}
+.practice-single3 .practice-image::after {
+   
+    background: #3faabc;
+}
+
+.blog-single2 .content {
+    padding: 6px 20px;
+}
+.blog-single2 .content h5 {
+    margin-bottom: 0;
+}
+
+
+
+.nav-left .mobile-menu-btn i {
+    font-size: 32px;
+}
+header.style-5.sticky {
+    background: #ffffff;
+}
+.phone-call.d-xl-flex.d-none.justify-content-center.align-items-center.flex-row {
+    background: white;
+}
+header.style-5.sticky .nav-right .phone-call .icon svg {
+    fill: #000000;
+}
+header.style-5.sticky .nav-right .phone-call .number span {
+    color: #000000;
+}
+header.style-5.sticky .nav-right .phone-call .number h5 a {
+    color: #000000;
+}
+.faq-body {
+    color: black;
+}
+
+.section-title-area .section-title h2 {
+    color: #000000;
+}
+.about3-content p.para, .about3-content .faq-wrap p.faq-body, .faq-wrap .about3-content p.faq-body {
+    color: black;
+}
+.about3-list li {
+    color: black;
+}
+
+
+
+.breadcrumb-section {
+    padding: 2.5rem 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Mobile*/
+@media (max-width: 991px) {
+    header.style-5 .header-logo {
+        padding: 5px 0px;
+    }
+    header.style-5 .header-logo img {
+        height: 50px;
+        border-radius: 7px;
+    }
+    header.style-5 .main-nav ul li a {
+        color: #fff0f0;
+    }
+}

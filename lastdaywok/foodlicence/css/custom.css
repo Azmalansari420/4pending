@@ -1,0 +1,518 @@
+.about-fssai {
+          padding: 30px 0;
+          background: #f9fbfd;
+      }
+
+      .about-content h2 {
+          font-size: 32px;
+          font-weight: 700;
+          margin-bottom: 15px;
+          color: #1c5482;
+      }
+
+      .about-text {
+          font-size: 15px;
+          color: #555;
+          margin-bottom: 15px;
+          line-height: 1.7;
+      }
+
+      /* Points */
+      .about-points {
+          margin-top: 20px;
+      }
+
+      .point {
+              background: #fff;
+    padding: 6px 15px;
+    margin-bottom: 0;
+          border-radius: 8px;
+          font-size: 14px;
+          box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+      }
+
+      /* Image */
+      .about-img img {
+          border-radius: 10px;
+      }
+
+      /* Responsive */
+      @media (max-width: 768px) {
+          .about-content h2 {
+              font-size: 24px;
+          }
+
+          .about-fssai {
+              padding: 40px 0;
+          }
+          .about-img>img
+          {
+            display: none;
+          }
+          .why-image>img
+          {
+            display: none;
+          }
+      }
+
+
+
+
+
+
+.services-fssai {
+    padding: 40px 0;
+    background: #ffffff;
+}
+.section-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1c5482;
+}
+
+.section-subtitle {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Service Box */
+.service-box {
+    background: #1c5482;
+    padding: 25px 20px;
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.3s;
+    border: 1px solid #eee;
+    height: 100%;
+}
+
+.service-box h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+
+}
+
+/* Hover Effect */
+.service-box:hover {
+    background: #1c5482;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.service-box:hover h5 {
+    color: #fff;
+}
+
+/* CTA Button */
+.service-btn {
+    background: #1c5482;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.service-btn:hover {
+    background: #0f3c60;
+    color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 24px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .why-choose {
+    padding: 20px 0;
+    background: #f4f8fb;
+}
+
+/* Title */
+.why-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1c5482;
+    margin-bottom: 25px;
+}
+
+/* Grid Layout */
+.why-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+/* Item Box */
+.why-item {
+    background: #ffffff;
+    padding: 14px 18px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #444;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: 0.3s;
+    border-left: 4px solid #1c5482;
+}
+
+/* Hover Effect */
+.why-item:hover {
+    transform: translateY(-5px);
+    background: #1c5482;
+    color: #fff;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Image */
+.why-image img {
+    border-radius: 12px;
+    max-width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .why-title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .why-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .why-content {
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+  .workflow-clean {
+    padding: 10px 0;
+    background: linear-gradient(135deg, #f8fbff, #eef5fb);
+}
+
+/* Heading */
+.workflow-head h2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #1c5482;
+}
+
+.workflow-head p {
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+}
+
+/* Card */
+.workflow-box {
+    background: #ffffff;
+    padding: 30px 20px;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.4s;
+    border: 1px solid #000;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Icon */
+.workflow-icon {
+    font-size: 45px;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: #1c5482;
+}
+
+/* Text */
+.workflow-box h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.workflow-box p {
+    color: #000;
+}
+
+/* Hover Effect */
+.workflow-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+    background: #1c5482;
+}
+
+.workflow-box:hover h5,
+.workflow-box:hover p {
+    color: #fff;
+}
+
+.workflow-box:hover .workflow-icon {
+    color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .workflow-head h2 {
+        font-size: 24px;
+    }
+}
+
+
+
+
+
+
+.fssai-need-section {
+    padding: 70px 0;
+    background: #ffffff;
+}
+
+/* Heading */
+.fssai-need-header h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1c5482;
+}
+
+.fssai-need-header p {
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+}
+
+/* Card */
+.fssai-need-card {
+    background: #f9fbfd;
+    padding: 25px 15px;
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.3s;
+    border: 1px solid #000;
+    height: 100%;
+}
+
+/* Icon */
+.need-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #1c5482;
+}
+
+/* Text */
+.fssai-need-card h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Hover */
+.fssai-need-card:hover {
+    background: #1c5482;
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.fssai-need-card:hover h5,
+.fssai-need-card:hover .need-icon {
+    color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .fssai-need-header h2 {
+        font-size: 24px;
+    }
+}
+
+
+
+
+.fssai-cta-banner {
+    padding: 50px 0;
+    background: linear-gradient(135deg, #1c5482, #0f3c60);
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Optional glow effect */
+.fssai-cta-banner::before {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.1), transparent);
+    top: -50%;
+    left: -50%;
+}
+
+/* Text */
+.fssai-cta-banner h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.fssai-cta-banner p {
+    font-size: 15px;
+    color: #e0e0e0;
+}
+
+/* Button */
+.cta-btn {
+    background: #fff;
+    color: #1c5482;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.cta-btn:hover {
+    background: #ffd700;
+    color: #000;
+    transform: translateY(-3px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .fssai-cta-banner h2 {
+        font-size: 22px;
+    }
+}
+
+
+
+
+
+.fssai-info-box {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    border: 1px solid #eee;
+}
+
+/* Subtext */
+.info-subtext {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Disclaimer */
+.info-disclaimer {
+    background: #fff4e5;
+    padding: 12px 15px;
+    border-left: 4px solid #ff9800;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.info-disclaimer p {
+    font-size: 13px;
+    margin: 5px 0 0;
+    color: #444;
+}
+
+/* Sections */
+.info-section {
+    margin-bottom: 18px;
+}
+
+.info-section h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1c5482;
+    margin-bottom: 8px;
+}
+
+/* Lists */
+.info-list {
+    padding-left: 18px;
+    margin: 0;
+}
+
+.info-list li {
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Check style */
+.info-list.check li {
+    list-style: none;
+    position: relative;
+    padding-left: 20px;
+}
+
+.info-list.check li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #1c5482;
+    font-weight: bold;
+}
+
+/* CTA */
+.info-cta {
+    margin-top: 20px;
+}
+
+.info-btn {
+    background: #1c5482;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.info-btn:hover {
+    background: #0f3c60;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .fssai-info-box {
+        padding: 20px;
+    }
+
+    .info-section h4 {
+        font-size: 15px;
+    }
+}
